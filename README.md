@@ -1,17 +1,16 @@
-The Emperor's New Clothes
+Fest-Gram
 ===========
-<img src ="https://raw.github.com/ArledgeMike/Emperors-New-Clothes/master/images/emporersnewclothes.png" />
-<h2>HTML5 Boilerplate Template<h2> <p>Version 1.01 - Two Buttons</P>
+<img src ="https://raw.github.com/ArledgeMike/Fest-Gram/master/images/Festgram.png" />
+<h2>Instagram, Google Maps photo gallery mash-up<h2> <p>Version 1.00 - Burning Man</P>
 
-<p>A HTML5 boilerplate template for starting simple HTML sites or Wordpress themes. Packed with Bootstrap Min 2.3.2 JS/CSS as well as Eric Meyer's RESET CSS. Also included is JQuery 1.9.1 min.</p>
-
-<p>To activate as a Wordpress Theme delete "Index.html".</p>
-<p>To activate as a basic HTML5 template delete "Header.php, Index.php, Footer.php".</p>
+<p>Fest Gram pulls a collection of Instagram photos based on the location endpoints and then displays them on a Google Map. This little project was built on top of the Emperor's New Clothes boilerplate and Ninja-gram repos.</p>
 
 <ul>
-List of Resources
-<li><a href="http://html5boilerplate.com/">HTML5 Boilerplate</a></li>
-<li><a href="http://meyerweb.com/eric/tools/css/reset/">Eric Meyer Reset CSS</a></li>
-<li><a href="http://code.jquery.com/jquery-1.9.1.js">JQUERY 1.9.1</a></li>
-<li><a href="http://getbootstrap.com/2.3.2/">Bootstrap 2.3.2</a></li>
+Deploy Instructions
+<li> 1.) Download Festgram and login into your Instagram Developer Account.</li>
+<li> 2.) Inside of index.html replace "CLIENT_ID" and "REDIRECT_URI" inside the button element. These two values are given to you when you register your app with Instagram.</li>
+<li> 3.) Download Festgram and login into your Instagram Developer Account.</li>
+<li> 1.) To change location of the instagram and the google map change var latit and var longit in main.js.</li>
 </ul>
+<ul>
+
