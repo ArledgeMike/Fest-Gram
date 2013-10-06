@@ -1,3 +1,0 @@
-#Emporer's New Clothes 
-
-HTML5 boilerplate used by Mike Arledge. Crafted together from other pieces of the internet. All info is in README.md.
