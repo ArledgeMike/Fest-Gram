@@ -1,0 +1,81 @@
+html, body, #map-canvas{
+  	height: 100%; 
+  	margin: 0;
+  	padding: 0 
+}
+#home{
+  	background: url(http://codeandpen.com/Festgram/images/background_index.jpg) no-repeat;
+  	background-size: cover; 
+}
+img[src*="gstatic.com/"], img[src*="googleapis.com/"] {
+	max-width: none;
+}
+#login_pane{
+	color:white;
+	width: 320px;
+	margin: 120px auto;
+	background: rgba(0,0,0,.5);
+	padding: 20px;
+	border-radius: 15px;
+	text-align: center;
+}
+#login_button{
+	margin: 11px 0px 0px 0px;
+}
+#load_overlay{
+	position:fixed;
+	top: 0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	z-index:9;
+	background: rgba(0,0,0,.8);
+}
+#load_overlay h3{
+	color:white;
+	width:150px;
+	margin:150px auto;	
+}
+.info_window{
+	height: 200px;
+	width: 300px;
+	overflow:hidden;
+}
+.info_box, .info_window h3, .info_window p, .info_window .img, .info_window a{
+	position:relative;
+}
+.info_box{
+	width: 136px;
+	height: 40px;
+	top: -15px;
+	left: 160px;
+	border-bottom: thin gray solid;
+}
+.info_window h3{
+	top: -14px;
+	left: 5px;
+	width: 300px;
+	border-bottom: thin gray solid;
+}
+.info_window p{
+	top: -161px;
+	left: 161px;
+	width: 136px;
+	font-size: 12px;
+	line-height: 15px;
+	word-break: break-word;
+	word-spacing: 2px;
+}
+.info_window a{
+	top: -21px;
+	width: 151px;
+	height: 151px;
+	float: left;
+	left: 4px;
+}
+.comments, .likes{
+	float:left;
+	margin-left:15px;
+	top: -153px;
+	position: relative;
+}
