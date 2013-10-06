@@ -10,7 +10,7 @@ Deploy Instructions
 <li> 1.) Download Festgram and login into your Instagram Developer Account.</li>
 <li> 2.) Inside of index.html replace "CLIENT_ID" and "REDIRECT_URI" inside the button element. These two values are given to you when you register your app with Instagram.</li>
 <li> 3.) Download Festgram and login into your Instagram Developer Account.</li>
-<li> 1.) To change location of the instagram and the google map change var latit and var longit in main.js.</li>
+<li> 4.) To change location of the instagram and the google map change var latit and var longit in main.js.</li>
 </ul>
 <ul>
 
